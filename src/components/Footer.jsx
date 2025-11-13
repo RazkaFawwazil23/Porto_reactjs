@@ -1,7 +1,7 @@
 import "remixicon/fonts/remixicon.css";
 import Dock from "./Dock/Dock";
 import { VscHome, VscArchive, VscAccount } from "react-icons/vsc";
-import { FaGithub, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
@@ -31,6 +31,15 @@ const Footer = () => {
             className="text-white hover:text-violet-400 transition-colors"
           >
             <FaGithub size={32} />
+          </a>
+          <a 
+            href="https://linkedin.com/in/razkafawwazil"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            className="text-white hover:text-blue-400 transition-colors"
+          >
+            <FaLinkedin size={32} />
           </a>
           <a 
             href="https://www.instagram.com/razkafawwazz?igsh=MW5jODVmaXZzcHd6bw%3D%3D&utm_source=qr"
