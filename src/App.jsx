@@ -79,7 +79,7 @@ function App() {
             />
             <div className="flex items-center sm:gap-4 gap-2">
               <a 
-                href="/assets/Razka_CV.pdf" 
+                href="/assets/RazkaCV.pdf" 
                 download="Razka_Fawwazil_Hakim_CV.pdf" 
                 className="font-semibold bg-[#1a1a1a] p-4 px-6 rounded-full border border-gray-700 hover:bg-[#222] transition-colors"
               >
